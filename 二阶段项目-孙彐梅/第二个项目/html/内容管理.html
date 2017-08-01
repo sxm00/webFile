@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容管理</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/内容管理.css">
+
+
+</head>
+<body>
+<!--导航部分-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="nav navbar-nav">
+                <li> <a href="">Maizi Admin</a></li>
+                <li><a href="后台首页.html"><span class="glyphicon glyphicon-home"> 后台首页</span> </a></li>
+                <li ><a href="用户管理.html" ><span class="glyphicon glyphicon-user"> 用户管理</span></a></li>
+                <li class="active"><a href="内容管理.html"><span class="glyphicon glyphicon-list-alt"> 内容管理</span></a></li>
+                <li><a href="标签管理.html"><span class="glyphicon glyphicon-tags"> 标签管理</span></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li style="margin-right: 20px"  class="dropdown" >
+                    <a href="" data-toggle="dropdown">
+                            admin
+                            <span class="caret"></span>
+                        <ul class="dropdown-menu adm">
+                            <li><a href="#"><span class="glyphicon glyphicon-screenshot"> 前台首页</span></a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"> 个人主页</span></a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-cog"> 个人设置</span></a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-credit-card"> 账户中心</span></a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-heart"> 我的收藏</span></a></li>
+                        </ul>
+                    </a>
+                </li>
+                <li><a href=""><span class="glyphicon glyphicon-off"> 退出</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--选项卡部分-->
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 hidden-xs">
+                <!--左边列表-->
+                <div class="tab">
+                    <div style="width: 200px" class="center-block">
+                        <ul class="list-group">
+                            <li class="list-group-item active" data-toggle="tab" id="userleft" onclick="choose('user',this)" ><a href="" >内容管理</a></li>
+                            <li class="list-group-item" id="searchleft" onclick="choose('search',this)" data-toggle="tab" ><a href="" >添加用户</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--右边部分-->
+            <div class="col-lg-8">
+                <div class="">
+                    <p>内容管理</p>
+                    <hr>
+                    <div class="tab">
+                        <!--用户管理下面的三部分-->
+                        <ul class="nav nav-tabs ul_xk" >
+                            <li class=" active" id="user" onclick="findParent('user',this)" data-toggle="tab"><a href="" >内容管理</a> </li>
+                            <li class="" id="search" onclick="findParent('search',this)" data-toggle="tab"><a href="" >添加内容</a> </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <!--内容管理-->
+                        <div class="tab-pane active" id="user1">
+                            <div class="data-div">
+                                <div class="row tableHeader row_0">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+                                        文章标题
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        作者
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        发布时间
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        操作
+                                    </div>
+                                </div>
+                                <div class="tablebody" >
+                                    <div id="bookInfo">
+
+                                    </div>
+                          <!--          <div class="row row_1">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                            泛Mooc职业教育，效果和就业为王
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" >
+                                         <span>朱朝兵</span>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                            2015/08/08
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" class="dropdown" >
+                                            <a href=""  data-toggle="dropdown">
+                                                <button class="btn btn-sm btn-default">
+                                                    操作
+                                                    <span class="caret"></span>
+                                                    <ul class="dropdown-menu" id="caoz">
+                                                        <li><a href="#"><span > 编辑</span></a></li>
+                                                        <li><a href="#"><span > 删除</span></a></li>
+                                                        <li><a href="#"><span > 锁定</span></a></li>
+                                                        <li><a href="#"><span > 修改密码</span></a></li>
+                                                    </ul>
+                                                </button>
+
+                                            </a>
+                                        </div>
+                                    </div>
+                          -->
+                                    <!--模态框-->
+                                    <div class="modal fade" id="myMode0"    >
+                                        <div class="modal-dialog modal-md">
+                                            <div class="modal-content">
+                                                <!--内容从aa.html文件中调用-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--分页-->
+                                    <div class="row">
+                                        <div class="col-lg-12 col-xs-12">
+                                            <ul class="pagination pagination-md fy">
+                                                <li class="disabled"><a href="" >&laquo;</a></li>
+                                                <li class="active"><a href="">1</a></li>
+                                                <li class="next"><a href="">2</a></li>
+                                                <li><a href="">3</a></li>
+                                                <li><a href="">4</a></li>
+                                                <li ><a href="">5</a></li>
+                                                <li ><a href="">6</a></li>
+                                                <li><a href="">&raquo;</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--添加内容-->
+                        <div class="tab-pane" id="user2">
+                            <!--form表单部分-->
+                                <form class="form-horizontal">
+                                    <div class="form-group">
+                                        <label for="sKnot" class="col-lg-12 col-xs-12 control-label kj">标题</label> <br>
+                                        <div class="col-lg-12 col-xs-12">
+                                            <input type="text" class="form-control input-lg" id="sKnot" placeholder="请输入文章标题">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="sKnot" class="col-lg-12 col-xs-12 control-label kj">文章内容</label> <br>
+                                        <div class="col-lg-12 col-xs-12">
+                                            <textarea name="" id="" cols="50" rows="15" class="form-control" placeholder="请输入文章正文部分"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="checkbox">全局置顶
+                                            <button type="submit" class="btn btn-md btn-default">发布文章</button>
+                                        </div>
+                                    </div>
+                                </form>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-xs-12">
+                                <footer>
+                                    Copyright© 2012-2015 www.maiziedu.com 蜀ICP备13014270号-4
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/content.js"></script>
+
+
+
+
+

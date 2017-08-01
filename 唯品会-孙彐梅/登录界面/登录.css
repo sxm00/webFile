@@ -1,0 +1,257 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+header{
+    width: 100%;
+    /*background: #ffffff;*/
+    padding-top: 44px;
+}
+.hlog{
+    width: 1000px;
+    height: 53px;
+    /*background: yellow;*/
+    margin: 0 auto;
+}
+.hlogl{
+    width: 314px;
+    height: 53px;
+    background: url("../image/sprite.png") no-repeat ;
+    float: left;
+}
+.hlogr{
+    width: 442px;
+    height: 30px;
+    background: url("../image/sprite.png") no-repeat  -319px 0;
+    float: right;
+    margin-top: 10px;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    /*background: red;*/
+}
+.mall{
+    width: 1000px;
+    height: 600px;
+    /*background: yellow;*/
+    margin: 0 auto;
+    background: url("../image/dlbj.jpg") no-repeat center center;
+}
+.madl{
+    width: 374px;
+    height: 400px;
+    /*background: yellow;*/
+    float: right;
+    padding-top: 40px;
+}
+.ma1{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+.inp1,.inp2{
+    width: 250px;
+    padding: 8px 10px;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    background: #ffffff;
+}
+.inp1 input,.inp2 input{
+    height: 18px;
+    line-height: 18px;
+    outline: 0;
+    text-shadow: none;
+    border: 0;
+    font-size: 14px;
+}
+.tip{
+    height: 25px;
+    line-height: 25px;
+    margin-top: -25px;
+    color: #f20266;
+}
+.dlan{
+    width: 140px;
+    height: 40px;
+    background: #f10180;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    border: 1px solid #f10180;
+    outline: 0;
+    border-radius: 3px;
+}
+.dlan:hover{
+    background: #f43499;
+}
+.ckb{
+    width: 280px;
+    height: 40px;
+    /*background: orangered;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ckbs1{
+    float: left;
+}
+.ckbs2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+:root .ckbi{
+    display: none;
+}
+:root  .ckbi:checked+.ckbi1{
+    background-position: -24px 0;
+}
+:root .ckbi1{
+    display: block;
+    box-sizing: border-box;
+    width: 19px;
+    height: 16px;
+    background: url("../image/sprite (1).png") no-repeat -47px 0;
+}
+
+.cklab{
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 12px;
+    color: #333333;
+}
+.ckbs3{
+    display: inline-block;
+    margin-left: 85px;
+    font-size: 12px;
+}
+.ckbs3 a{
+    text-decoration: none;
+    color: #666;
+}
+.ckbs3 a:hover{
+    color: #f10180;
+}
+.hzwz{
+    width: 280px;
+    height: 80px;
+    /*background: greenyellow;*/
+    padding-top: 20px;
+}
+.txt{
+    width: 280px;
+    height: 50px;
+    /*background: red;*/
+}
+.tu1,.tu2,.tu3,.tu4{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.tu1 {
+    background: url("../image/sprite.png") no-repeat -290px -57px;
+}
+.tu2{
+    background: url("../image/sprite.png") no-repeat -235px -58px;
+}
+.tu3{
+    background: url("../image/sprite.png") no-repeat -179px -57px;
+}
+.tu4{
+    background: url("../image/sprite.png") no-repeat -206px -57px;
+}
+.tu1:hover{
+    background: url("../image/sprite.png") no-repeat -265px -57px;
+}
+.tu2:hover{
+    background: url("../image/sprite.png") no-repeat -345px -57px;
+}
+.tu3:hover{
+    background: url("../image/sprite.png") no-repeat -152px -55px;
+}
+.tu4:hover{
+    background: url("../image/sprite.png") no-repeat -321px -57px;
+}
+.tu5{
+    display: inline-block;
+    width: 46px;
+    height: 19px;
+    background: url("../image/gd1.png") no-repeat center;
+}
+.tu5:hover{
+    background: url("../image/gd2.png") no-repeat center;
+}
+.tu5:active{
+    background: url("../image/gd3.png") no-repeat center;
+}
+.tu5 ul{
+    list-style: none;
+    width: 210px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 22px;
+    position: relative;
+    left: -140px;
+    text-align: center;
+    line-height: 20px;
+    display: none;
+ }
+.tu5 ul li{
+    float: left;
+    width: 50px;
+    height:20px;
+    margin-top: 5px;
+    word-spacing: 3px;
+    border-right: 1px solid #d2d2d2;
+}
+.tu5 ul li a{
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.tu5 ul li a:hover{
+    clear: both;
+    color: #d2d2d2;
+}
+.tu5:hover ul{
+    display: block;
+}
+footer{
+    width:100%;
+    height: 20px;
+}
+footer p{
+    width: 1000px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #767074;
+    text-align: center;
+    line-height: 20px;
+}
+.ts1{
+    position:absolute;
+    top:173px;
+}
+.ts2{
+    position:absolute;
+    top: 233px;
+}
+
+.ts1,.ts2{
+    width: 200px;
+    height: 30px;
+    right: 10%;
+    font-size: 14px;
+    background: #e7f9ff;
+    color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    border-radius: 3px;
+    display: none;
+    line-height: 30px;
+    text-align: center;
+}

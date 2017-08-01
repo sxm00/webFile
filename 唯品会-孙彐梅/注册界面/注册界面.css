@@ -1,0 +1,255 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+header{
+    width: 100%;
+    /*background: #ffffff;*/
+    padding-top: 44px;
+}
+.hlog{
+    width: 1000px;
+    height: 53px;
+    /*background: yellow;*/
+    margin: 0 auto;
+}
+.hlogl{
+    width: 314px;
+    height: 53px;
+    background: url("../image/sprite.png") no-repeat ;
+    float: left;
+}
+.hlogr{
+    width: 442px;
+    height: 30px;
+    background: url("../image/sprite.png")  -319px 0;
+    float: right;
+    margin-top: 10px;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    /*background: red;*/
+}
+.mall{
+    width: 1000px;
+    height: 600px;
+    /*background: yellow;*/
+    margin: 0 auto;
+    background: url("../image/dlbj.jpg") no-repeat center center;
+}
+.madl{
+    width: 374px;
+    height: 500px;
+    /*background: yellow;*/
+    float: right;
+    padding-top: 40px;
+}
+.ts1{
+    position:absolute;
+    top:137px;
+
+}
+.ts2{
+    position:absolute;
+    top: 189px;
+
+}
+.ts3{
+    position:absolute;
+    top: 245px;
+
+}
+.ts1,.ts2,.ts3{
+    width: 200px;
+    height: 30px;
+    right: 27%;
+    font-size: 14px;
+    background: #e7f9ff;
+    color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    border-radius: 3px;
+    display: none;
+    line-height: 30px;
+    text-align: center;
+}
+.ts4{
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    background: #e7f9ff;
+    color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    border-radius: 3px;
+    position: absolute;
+    top: 298px;
+    right:27%;
+    line-height: 30px;
+     text-align: center;
+    display: none;
+}
+.ma1{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 25px;
+}
+.ma1sp{
+    display: inline-block;
+   font-size: 12px;
+    margin-left: 120px;
+}
+.ma1 span a{
+    color: #f10180;
+    text-decoration: none;
+}
+.inp1,.inp2,.inp3{
+    width: 250px;
+    padding: 8px 10px;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    background: #ffffff;
+    height: 23px;
+}
+
+.inp1 input,.inp2 input,.inp3 input{
+    height: 18px;
+    line-height: 18px;
+    outline: 0;
+    text-shadow: none;
+    border: 0;
+    font-size: 14px;
+}
+.inp4{
+    width: 100px;
+    padding: 8px 10px;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    background: #ffffff;
+    float: left;
+    height: 23px;
+    margin-bottom: 20px;
+}
+.inp5{
+    width: 100px;
+    height: 23px;
+    padding: 8px 10px;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    background: #d0d0d0;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    color: #999999;
+    line-height: 23px;
+}
+.inp5 span{
+    margin-left: -7px;
+}
+.inp4 input{
+    height: 18px;
+    line-height: 18px;
+    outline: 0;
+    text-shadow: none;
+    border: 0;
+    font-size: 14px;
+}
+.tip{
+    height: 25px;
+    line-height: 25px;
+    margin-top: -25px;
+    color: #f20266;
+}
+.dlan{
+    clear: both;
+    width: 140px;
+    height: 40px;
+    background: #f10180;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    border: 1px solid #f10180;
+    outline: 0;
+    border-radius: 3px;
+    float: left;
+}
+.dlan:hover{
+    background: #f43499;
+}
+.tgyx{
+    display: block;
+    width: 100px;
+    height: 10px;
+    background: url("../image/blue-arrow.png") no-repeat right;
+    font-size: 13px;
+    color: #65a3de;
+    text-decoration: none;
+    text-align: center;
+    line-height: 10px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 10px;
+
+}
+.ckb{
+    width: 280px;
+    height: 40px;
+    background: orangered;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ckbs1{
+    clear: both;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+.ckbs2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+:root .ckbi{
+    display: none;
+}
+:root  .ckbi:checked+.ckbi1{
+    background-position: -24px 0;
+}
+:root .ckbi1{
+    display: block;
+    box-sizing: border-box;
+    width: 19px;
+    height: 16px;
+    background: url("../image/sprite (1).png") no-repeat -47px 0;
+}
+
+.cklab{
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 12px;
+    color: #333333;
+}
+.cklab a{
+    text-decoration: none;
+    color: #ff0000;
+}
+.cklab a:hover{
+    color: #f10180;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+}
+footer p{
+    width: 1000px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #767074;
+    text-align: center;
+    line-height: 20px;
+}

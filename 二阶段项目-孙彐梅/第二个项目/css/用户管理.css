@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #272b30;
+}
+.navbar-default {
+    background-color: #42474d;
+    border-color: #42474d;
+}
+
+/*.navbar-default .navbar-nav>li>a {
+    color: #c8c8c8;
+}*/
+.nav-tabs>li.active>a{
+    color: #8c8c8c;
+    background: none;
+}
+
+.nav-tabs>li>a {
+     border: none;
+}
+
+
+.list-group-item.active,.list-group-item.active:hover {
+background:#72A4DD ;
+border:#72A4DD ;
+
+}
+.black{
+background: #42474d;
+}
+.white{
+background: #fff;
+}
+
+.adm{
+text-align: center;
+margin: 0 auto;
+}
+/*头部用户管理背景色*/
+/*.a_li{
+    background: #272b2e;
+}*/
+.main{
+    width: 100%;
+    margin-top:70px;
+}
+/*右边三个li左浮动*/
+.ul_xk li{
+   float: left;
+}
+.row_1{
+    height: 45px;
+    line-height: 45px;
+}
+.row_0{
+    height: 35px;
+    line-height: 35px;
+}
+.row_0,.row_1{
+    margin: 0;
+    clear: both;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646987;
+    background-color: #2e3338;
+    text-align: left;
+    border: 1px solid #272b30;
+}
+/*操作*/
+.caoz{
+    text-align: left;
+}
+/*分页*/
+.fy{
+  float: right;
+}
+.fy>.active>a{
+    background: #16181a;
+    border: none;
+}
+.fy li a{
+    background: #41474d;
+    color: #ffffff;
+}
+.fy>.disabled>a{
+    background: #41474d;
+}
+footer{
+    margin: 0 auto;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+/*用户搜索部分*/
+.alert {
+    padding: 15px 15px 0 15px;
+     margin-bottom: 0;
+}
+.gb_0{
+    background: #d9edf7;
+    color: #3183b9;
+}
+#user2{
+    border: 1px #dddddd solid;
+    border-top: none;
+}
+.form-horizontal .control-label{
+    text-align: left;
+    margin-left: 10px;
+}
+.form-horizontal input,.form-horizontal button,.form-horizontal select{
+    margin-left: 10px;
+}
+.input-lg {
+    height: 36px;
+}
+.form-control {
+    width: 92%;
+}

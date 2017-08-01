@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body a{
+    color: #333333;
+}
+.adm{
+    text-align: center;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    margin-top:70px;
+}
+.row_1{
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid #dddddd;
+}
+.row_0{
+    height: 35px;
+    line-height: 35px;
+}
+.row_0,.row_1{
+    margin: 0;
+    clear: both;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646987;
+    text-align: left;
+
+}
+/*操作*/
+.caoz{
+    text-align: left;
+}
+/*分页*/
+.fy{
+    float: right;
+}
+#user2{
+    border: 1px #dddddd solid;
+    border-top: none;
+}
+.form-horizontal .control-label{
+    text-align: left;
+    margin-left: 10px;
+}
+.form-horizontal input,.form-horizontal textarea{
+    margin-left: 10px;
+}
+.form-horizontal button{
+    float: right;
+    margin-right: 50px;
+}
+.input-lg {
+    height: 36px;
+}
+.form-control {
+    width: 92%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}

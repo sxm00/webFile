@@ -1,0 +1,110 @@
+.one{
+    width: 320px;
+    height: 240px;
+    border: 1px solid gray;
+}
+.head{
+   width: 320px;
+    height: 200px;
+   border-bottom: 1px #CECECE solid;
+    letter-spacing: 3px;
+}
+.left{
+    width: 50%;
+    height: 100%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
+.head div{
+    float: left;
+}
+.head ul li{
+    font-size: 14px;
+}
+
+.left ul li{
+    margin-right: 14px;
+    margin-top: 14px;
+}
+.right ul li{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.head ul li a:link{
+     color: #333333;
+     text-decoration: none;
+ }
+.head ul li a:visited{
+    color: #333333;
+    text-decoration: none;
+}
+.head ul li a:hover{
+    color: #FF7AA7;
+    text-decoration: underline;
+}
+.i1{
+    list-style-image:url("../image/dianshi.png");
+}
+.i2{
+    list-style-image:url("../image/dianying.png");
+}
+.i3{
+    list-style-image:url("../image/xinwen.png");
+}
+.i4{
+    list-style-image:url("../image/caipiao.jpg");
+}
+.i5{
+    list-style-image:url("../image/tejia.jpg");
+}
+.i6{
+    list-style-image:url("../image/youxi.png");
+}
+.i7{
+    list-style-image:url("../image/donghua.png");
+}
+.i8{
+    list-style-image:url("../image/lvyou.png");
+}
+.i9{
+    list-style-image:url("../image/gaoxiao.png");
+}
+.i10{
+    list-style-image:url("../image/gupiao.png");
+}
+span{
+    color: #999999;
+}
+.footer{
+    width: 320px;
+    height: 40px;
+    font-size: 14px;
+    color: #666666;
+    margin-top: -12px;
+    }
+.footer ul li{
+    float: left;
+     list-style: none;
+    position: relative;
+    margin-left: -25px;
+    margin-right:40px;
+    margin-top:5px;
+}
+.footer ul li img{
+    margin-top: -5px;
+}
+.footer ul li a:link{
+    text-decoration: none;
+    color: #666666;
+}
+.footer ul li a:visited{
+    text-decoration: none;
+    color: #666666;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+    color: #666666;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-default {
+    background-color: #25a0e6;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: #178acc;
+}
+.adm{
+    text-align: center;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    margin-top:70px;
+}
+.form-horizontal input{
+    margin-left: 10px;
+}
+.input-lg {
+    height: 36px;
+    font-size: 16px;
+}
+.alert {
+    float: left;
+    background:#d9edf7;
+    margin-right: 10px;
+}
+.close{
+    opacity:1;
+    font-size: 16px;
+}
+.alert  a{
+    color: #66a3d4;
+}
