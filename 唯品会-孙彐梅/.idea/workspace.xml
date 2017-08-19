@@ -21,8 +21,8 @@
       <file leaf-file-name="唯品会主页面.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/唯品会主页面.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="1563" column="7" lean-forward="true" selection-start-line="1563" selection-start-column="7" selection-end-line="1563" selection-end-column="7" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -34,6 +34,7 @@
                 <element signature="n#li#6;n#ul#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#li#7;n#ul#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#1;n#li#7;n#ul#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -59,6 +60,7 @@
                 <element signature="n#div#1;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -138,6 +140,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="唯品会主页面.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/唯品会主页面.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="449" column="1" lean-forward="true" selection-start-line="449" selection-start-column="1" selection-end-line="449" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -184,12 +196,12 @@
         <option value="$PROJECT_DIR$/详情界面.css" />
         <option value="$PROJECT_DIR$/详情界面.html" />
         <option value="$PROJECT_DIR$/注册界面/注册界面.css" />
-        <option value="$PROJECT_DIR$/唯品会主页面.html" />
         <option value="$PROJECT_DIR$/注册界面/注册界面.html" />
         <option value="$PROJECT_DIR$/登录界面/唯品会登录.html" />
-        <option value="$PROJECT_DIR$/唯品会主页面.css" />
         <option value="$PROJECT_DIR$/weipinhui.js" />
         <option value="$PROJECT_DIR$/注册界面/zhucejs.js" />
+        <option value="$PROJECT_DIR$/唯品会主页面.html" />
+        <option value="$PROJECT_DIR$/唯品会主页面.css" />
       </list>
     </option>
   </component>
@@ -200,10 +212,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -259,6 +270,8 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="E:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="E:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -344,17 +357,18 @@
       <workItem from="1497315494009" duration="17972000" />
       <workItem from="1497348483497" duration="69000" />
       <workItem from="1497402741417" duration="90000" />
+      <workItem from="1503123100028" duration="1565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155741000" />
+    <option name="totallyTimeSpent" value="157306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.247614" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -426,11 +440,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/tomorrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image/tomorrow.png" />
     <entry file="file://$PROJECT_DIR$/image/yg1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -441,20 +451,8 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://F:/web02班/JS/js0607.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="150" column="45" lean-forward="true" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/common-hash-92164283.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4004">
-          <caret line="0" column="43487" lean-forward="true" selection-start-line="0" selection-start-column="43487" selection-end-line="0" selection-end-column="43487" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/web02班/JS/js0607.html" />
+    <entry file="file://$USER_HOME$/Desktop/common-hash-92164283.css" />
     <entry file="file://$PROJECT_DIR$/../徐州基地 项目PK 马蜂窝/mfw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -476,13 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/sd.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="105" column="32" lean-forward="false" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/sd.css" />
     <entry file="file://$PROJECT_DIR$/image/ftt.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -547,11 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5633.html" />
     <entry file="file://$PROJECT_DIR$/旋转木马相册.html" />
-    <entry file="file://$PROJECT_DIR$/image/logdh.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image/logdh.gif" />
     <entry file="file://$PROJECT_DIR$/image/zhao.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -602,11 +590,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/insure_part3_title.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image/insure_part3_title.jpg" />
     <entry file="file://$PROJECT_DIR$/image/insure_claimflowchart.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -673,15 +657,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/唯品会主页面.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="270" column="21" lean-forward="true" selection-start-line="270" selection-start-column="21" selection-end-line="270" selection-end-column="21" />
+        <state relative-caret-position="393">
+          <caret line="449" column="1" lean-forward="true" selection-start-line="449" selection-start-column="1" selection-end-line="449" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/唯品会主页面.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="450">
+          <caret line="1563" column="7" lean-forward="true" selection-start-line="1563" selection-start-column="7" selection-end-line="1563" selection-end-column="7" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -693,6 +678,7 @@
             <element signature="n#li#6;n#ul#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#li#7;n#ul#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#li#7;n#ul#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -718,6 +704,7 @@
             <element signature="n#div#1;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />

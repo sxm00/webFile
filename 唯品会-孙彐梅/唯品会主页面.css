@@ -446,7 +446,7 @@ background-image: url("./image/tu1.png");
     float:left;
     /*background: red;*/
     position: absolute;
-    top: 45px;
+    top: -10px;
 }
 /*.hduml img{*/
     /*margin: 0 auto;*/
